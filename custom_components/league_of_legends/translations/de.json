@@ -1,0 +1,45 @@
+{
+  "title": "League of Legends",
+  "config": {
+    "step": {
+      "user": {
+        "title": "League of Legends einrichten",
+        "description": "Riot-ID ohne # auf die beiden Felder aufteilen. EUW/EUNE verwenden die Region europe.",
+        "data": {
+          "game_name": "Spielname",
+          "tag_line": "Tagline",
+          "region": "Region",
+          "api_key": "Riot API-Key"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Riot API-Key erneuern",
+        "description": "Der bisherige Schlüssel wurde abgelehnt. Bitte einen neuen Schlüssel eingeben.",
+        "data": {
+          "api_key": "Riot API-Key"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "API-Key ungültig oder abgelaufen.",
+      "account_not_found": "Riot-ID in dieser Region nicht gefunden.",
+      "cannot_connect": "Riot-API nicht erreichbar oder Rate Limit erreicht.",
+      "invalid_input": "Bitte alle Felder ausfüllen."
+    },
+    "abort": {
+      "already_configured": "Dieser Account ist bereits eingerichtet.",
+      "reauth_successful": "API-Key aktualisiert."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "result": {
+        "name": "Ergebnis",
+        "state": {
+          "win": "Sieg",
+          "loss": "Niederlage"
+        }
+      }
+    }
+  }
+}

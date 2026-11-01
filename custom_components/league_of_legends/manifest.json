@@ -1,0 +1,14 @@
+{
+  "domain": "league_of_legends",
+  "name": "League of Legends",
+  "version": "0.1.0",
+  "config_flow": true,
+  "documentation": "https://github.com/Specializedx3/ha-league-of-legends",
+"issue_tracker": "https://github.com/Specializedx3/ha-league-of-legends/issues",
+"codeowners": ["@Specializedx3"],
+  "codeowners": [],
+  "dependencies": [],
+  "requirements": [],
+  "iot_class": "cloud_polling",
+  "integration_type": "service"
+}

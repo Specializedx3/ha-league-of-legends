@@ -1,0 +1,45 @@
+{
+  "title": "League of Legends",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up League of Legends",
+        "description": "Enter your Riot ID in two fields, without #. For EUW/EUNE select europe.",
+        "data": {
+          "game_name": "Game name",
+          "tag_line": "Tagline",
+          "region": "Region",
+          "api_key": "Riot API key"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Renew Riot API key",
+        "description": "Enter a new API key.",
+        "data": {
+          "api_key": "Riot API key"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid or expired API key.",
+      "account_not_found": "Account not found in this region.",
+      "cannot_connect": "Cannot reach Riot API or rate limit reached.",
+      "invalid_input": "Fill in all fields."
+    },
+    "abort": {
+      "already_configured": "Account is already configured.",
+      "reauth_successful": "API key updated."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "result": {
+        "name": "Result",
+        "state": {
+          "win": "Win",
+          "loss": "Loss"
+        }
+      }
+    }
+  }
+}
